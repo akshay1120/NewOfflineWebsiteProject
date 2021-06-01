@@ -1,0 +1,212 @@
+2021-06-01 09:36:54,153  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:36:54,153  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:36:55,914  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:36:56,844  INFO [main] TestBase:31 - verifying the url
+2021-06-01 09:36:56,845  INFO [main] TestBase:23 - Expected Url = file:///C:/Offline%20Website/index.html
+2021-06-01 09:36:56,850  INFO [main] TestBase:26 - Actual Url = file:///C:/Offline%20Website/index.html
+2021-06-01 09:36:56,851  INFO [main] TestBase:30 - Actual and expected Url matched
+2021-06-01 09:36:56,926  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:36:56,926  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:36:58,156  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:00,722  INFO [main] TestBase:34 - verify Printing Drag Down Options using Al
+2021-06-01 09:37:00,724  INFO [main] TestBase:34 - Expected List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
+2021-06-01 09:37:00,866  INFO [main] TestBase:41 - Actual List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
+2021-06-01 09:37:00,866  INFO [main] TestBase:45 - Actual and Expected list matched
+2021-06-01 09:37:00,929  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:00,929  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:02,155  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:04,312  INFO [main] TestBase:34 - verifying the url
+2021-06-01 09:37:04,312  INFO [main] TestBase:23 - Expected Url = file:///C:/Offline%20Website/pages/examples/dashboard.html
+2021-06-01 09:37:04,321  INFO [main] TestBase:26 - Actual Url = file:///C:/Offline%20Website/pages/examples/dashboard.html
+2021-06-01 09:37:04,321  INFO [main] TestBase:30 - Actual and Expected Url matched
+2021-06-01 09:37:04,414  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:04,414  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:05,653  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:07,851  INFO [main] TestBase:34 - verify contact No Length
+2021-06-01 09:37:08,036  INFO [main] TestBase:28 - Actual List = [Kiran, Neelam, Seema, Varsha, Darshit]
+2021-06-01 09:37:08,036  INFO [main] TestBase:36 - Expected List = [Kiran, Neelam, Seema, Varsha, Darshit]
+2021-06-01 09:37:08,036  INFO [main] TestBase:40 - Actual and Expected list matched
+2021-06-01 09:37:08,129  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:08,130  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:09,354  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:11,592  INFO [main] TestBase:34 - verify Headings using Al
+2021-06-01 09:37:11,688  INFO [main] TestBase:26 - Actual List of Headings = [#, Username, Email, Mobile, Course, Gender, State, Action]
+2021-06-01 09:37:11,688  INFO [main] TestBase:29 - Expected List of Headings = [#, Username, Email, Mobile, Course, Gender, State, Action]
+2021-06-01 09:37:11,688  INFO [main] TestBase:33 - Actual and Expected list of Headings matched
+2021-06-01 09:37:11,765  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:11,766  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:12,991  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:15,262  INFO [main] TestBase:34 - verify Operating System 32bit
+2021-06-01 09:37:15,262  INFO [main] TestBase:25 - Actual Vendors having Operating System of 32 bit : 
+2021-06-01 09:37:15,538  INFO [main] TestBase:28 - Actual List = [Java Development Kit (JDK), Google Chrome, Mozilla Firefox, Gecko Driver for Latest firefox]
+2021-06-01 09:37:15,538  INFO [main] TestBase:35 - Expected List = [Java Development Kit (JDK), Google Chrome, Mozilla Firefox, Gecko Driver for Latest firefox]
+2021-06-01 09:37:15,538  INFO [main] TestBase:39 - Actual and Expected list matched
+2021-06-01 09:37:15,623  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:15,623  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:16,907  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:17,901  INFO [main] TestBase:34 - verify Url
+2021-06-01 09:37:17,901  INFO [main] TestBase:23 - Expected Url = file:///C:/Offline%20Website/pages/examples/register.html
+2021-06-01 09:37:17,905  INFO [main] TestBase:26 - Actual Url = file:///C:/Offline%20Website/pages/examples/register.html
+2021-06-01 09:37:17,906  INFO [main] TestBase:30 - Actual and expected Url matched
+2021-06-01 09:37:18,005  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:18,006  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:19,223  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:21,537  INFO [main] TestBase:34 - verify GO Links using Al
+2021-06-01 09:37:35,197  INFO [main] TestBase:27 - Actual List = [Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Live Videos | javabyKiran, Page not found | javabyKiran]
+2021-06-01 09:37:35,197  INFO [main] TestBase:36 - Expected List = [Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Live Videos | javabyKiran, Page not found | javabyKiran]
+2021-06-01 09:37:35,197  INFO [main] TestBase:40 - Actual and Expected list matched
+2021-06-01 09:37:35,270  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:35,270  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:36,504  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:37,391  INFO [main] TestBase:38 - verifying the title
+2021-06-01 09:37:37,392  INFO [main] TestBase:45 - Expected Title = JavaByKiran | Log in
+2021-06-01 09:37:37,397  INFO [main] TestBase:48 - Actual and expected Url not matched
+2021-06-01 09:37:37,398  INFO [main] TestBase:52 - Actual and expected title matched
+2021-06-01 09:37:37,469  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:37,469  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:38,719  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:41,127  INFO [main] TestBase:41 - verify Printing Drag Down Options using Excel
+2021-06-01 09:37:41,671  INFO [main] TestBase:59 - Expected List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
+2021-06-01 09:37:41,812  INFO [main] TestBase:66 - Actual List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
+2021-06-01 09:37:41,812  INFO [main] TestBase:70 - Actual and Expected list matched
+2021-06-01 09:37:41,898  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:41,898  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:43,140  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:45,234  INFO [main] TestBase:41 - verifying the Title
+2021-06-01 09:37:45,235  INFO [main] TestBase:44 - Expected Title = JavaByKiran | Dashboard
+2021-06-01 09:37:45,241  INFO [main] TestBase:47 - actual Title = JavaByKiran | Dashboard
+2021-06-01 09:37:45,241  INFO [main] TestBase:51 - Actual and Expected title matched
+2021-06-01 09:37:45,329  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:45,330  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:46,550  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:48,788  INFO [main] TestBase:41 - verify Names In Alphabetical Order
+2021-06-01 09:37:48,871  INFO [main] TestBase:61 - Expected List = [Darshit, Kiran, Neelam, Seema, Varsha]
+2021-06-01 09:37:48,872  INFO [main] TestBase:64 - Actual List = [Darshit, Kiran, Neelam, Seema, Varsha]
+2021-06-01 09:37:48,872  INFO [main] TestBase:75 - Actual and Expected list matched
+2021-06-01 09:37:48,951  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:48,959  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:50,244  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:52,571  INFO [main] TestBase:41 - verify Mob No Length
+2021-06-01 09:37:52,714  INFO [main] TestBase:47 - Actual List = [Kiran, Monica]
+2021-06-01 09:37:52,714  INFO [main] TestBase:52 - Expected List = [Kiran, Monica]
+2021-06-01 09:37:52,714  INFO [main] TestBase:56 - Actual and Expected list matched
+2021-06-01 09:37:52,800  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:52,800  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:54,088  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:56,395  INFO [main] TestBase:41 - verify Operating System Common
+2021-06-01 09:37:56,396  INFO [main] TestBase:52 - Actual Vendors having Operating System common : 
+2021-06-01 09:37:56,705  INFO [main] TestBase:55 - Actual List = [Selenium Server Source Jar, Google Chrome Driver]
+2021-06-01 09:37:56,705  INFO [main] TestBase:60 - Expected List = [Selenium Server Source Jar, Google Chrome Driver]
+2021-06-01 09:37:56,705  INFO [main] TestBase:64 - Actual and Expected list matched
+2021-06-01 09:37:56,808  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:56,809  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:37:58,065  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:37:59,195  INFO [main] TestBase:41 - verify Title
+2021-06-01 09:37:59,196  INFO [main] TestBase:44 - Expected Title = JavaByKiran | Registration Page
+2021-06-01 09:37:59,201  INFO [main] TestBase:47 - Actual Title = JavaByKiran | Registration Page
+2021-06-01 09:37:59,201  INFO [main] TestBase:51 - Actual and expected title matched
+2021-06-01 09:37:59,306  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:37:59,306  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:00,653  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:02,998  INFO [main] TestBase:41 - verify GO Links using Excel
+2021-06-01 09:38:16,359  INFO [main] TestBase:54 - Actual List = [Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Live Videos | javabyKiran, Page not found | javabyKiran]
+2021-06-01 09:38:16,468  INFO [main] TestBase:57 - Expected List = [Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Live Videos | javabyKiran, Page not found | javabyKiran]
+2021-06-01 09:38:16,468  INFO [main] TestBase:61 - Actual and Expected list matched
+2021-06-01 09:38:16,548  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:16,548  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:17,795  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:18,680  INFO [main] TestBase:45 - verifying the logo
+2021-06-01 09:38:18,718  INFO [main] TestBase:67 - Logo is displayed
+2021-06-01 09:38:18,787  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:18,797  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:20,072  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:22,500  INFO [main] TestBase:48 - verify Valid Add User
+2021-06-01 09:38:25,039  INFO [main] TestBase:94 - Actual Alert Message = User Added Successfully. You can not see added user.
+2021-06-01 09:38:25,039  INFO [main] TestBase:97 - expected Alert Message = User Added Successfully. You can not see added user.
+2021-06-01 09:38:25,040  INFO [main] TestBase:101 - Actual and expected Alert Message matched
+2021-06-01 09:38:29,166  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:29,166  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:30,379  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:32,576  INFO [main] TestBase:48 - verifying the Corner Heading
+2021-06-01 09:38:32,607  INFO [main] TestBase:65 - actual Corner Heading = Java By Kiran
+2021-06-01 09:38:32,608  INFO [main] TestBase:68 - expected Corner Heading = Java By Kiran
+2021-06-01 09:38:32,608  INFO [main] TestBase:72 - Actual and Expected Corner Heading matched
+2021-06-01 09:38:32,677  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:32,678  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:33,897  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:36,217  INFO [main] TestBase:48 - verify Preffered Way To Connect WhatsApp
+2021-06-01 09:38:36,398  INFO [main] TestBase:92 - Actual List = [Kiran, Neelam, Seema, Varsha, Darshit]
+2021-06-01 09:38:36,398  INFO [main] TestBase:100 - Expected List = [Kiran, Neelam, Seema, Varsha, Darshit]
+2021-06-01 09:38:36,398  INFO [main] TestBase:104 - Actual and Expected list matched
+2021-06-01 09:38:36,488  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:36,489  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:37,737  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:40,040  INFO [main] TestBase:48 - verify for Male Gender
+2021-06-01 09:38:40,190  INFO [main] TestBase:70 - Actual List = [Kiran, Sagar]
+2021-06-01 09:38:40,190  INFO [main] TestBase:75 - Expected List = [Kiran, Sagar]
+2021-06-01 09:38:40,190  INFO [main] TestBase:79 - Actual and Expected list matched
+2021-06-01 09:38:40,258  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:40,258  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:41,540  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:43,811  INFO [main] TestBase:48 - verify None Operating System
+2021-06-01 09:38:44,287  INFO [main] TestBase:80 - Actual List = [Selenium Server Standalon Jar]
+2021-06-01 09:38:44,287  INFO [main] TestBase:84 - Expected List = [Selenium Server Standalon Jar]
+2021-06-01 09:38:44,287  INFO [main] TestBase:88 - Actual and Expected list matched
+2021-06-01 09:38:44,370  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:44,370  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:45,610  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:46,696  INFO [main] TestBase:48 - verify Heading
+2021-06-01 09:38:46,737  INFO [main] TestBase:65 - Actual Heading = Java By Kiran
+2021-06-01 09:38:46,737  INFO [main] TestBase:68 - Expected Heading = Java By Kiran
+2021-06-01 09:38:46,737  INFO [main] TestBase:72 - Actual and Expected Heading matched
+2021-06-01 09:38:46,849  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:46,849  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:48,154  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:50,520  INFO [main] TestBase:48 - verify Complete Useful Links Table
+2021-06-01 09:38:50,794  INFO [main] TestBase:75 - Actual List = [Sr, Content, Click, 01, Schedule, Go !, 02, Video Lactures All Topics, Go !, 03, Selenium Interview Questions, Go !, 04, Java Interview Questions, Go !, 05, Courses, Go !, 06, Placement, Go !]
+2021-06-01 09:38:50,857  INFO [main] TestBase:78 - Expected List = [Sr, Content, Click, 01, Schedule, Go !, 02, Video Lactures All Topics, Go !, 03, Selenium Interview Questions, Go !, 04, Java Interview Questions, Go !, 05, Courses, Go !, 06, Placement, Go !]
+2021-06-01 09:38:50,857  INFO [main] TestBase:82 - Actual and Expected list matched
+2021-06-01 09:38:50,947  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:50,947  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:52,192  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:53,104  INFO [main] TestBase:52 - verifying the MainHeading
+2021-06-01 09:38:53,135  INFO [main] TestBase:81 - Actual Heading = Java By Kiran
+2021-06-01 09:38:53,135  INFO [main] TestBase:84 - Expected Heading = Java By Kiran
+2021-06-01 09:38:53,135  INFO [main] TestBase:88 - Actual and Expected Headings are matched
+2021-06-01 09:38:53,203  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:53,203  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:54,451  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:38:56,968  INFO [main] TestBase:55 - verifying the Main Heading
+2021-06-01 09:38:57,002  INFO [main] TestBase:86 - actual Main Heading = Dashboard Courses Offered
+2021-06-01 09:38:57,002  INFO [main] TestBase:89 - expected Main Heading = Dashboard Courses Offered
+2021-06-01 09:38:57,002  INFO [main] TestBase:93 - Actual and Expected Main Heading matched
+2021-06-01 09:38:57,077  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:38:57,077  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:38:58,327  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:39:00,638  INFO [main] TestBase:55 - verify Preffered Way To Connect PhoneCall
+2021-06-01 09:39:00,828  INFO [main] TestBase:120 - Actual List = [Neelam, Seema, Varsha]
+2021-06-01 09:39:00,828  INFO [main] TestBase:126 - Expected List = [Neelam, Seema, Varsha]
+2021-06-01 09:39:00,828  INFO [main] TestBase:130 - Actual and Expected list matched
+2021-06-01 09:39:00,942  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:39:00,943  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:39:02,190  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:39:04,463  INFO [main] TestBase:55 - verify Uname In Order
+2021-06-01 09:39:04,512  INFO [main] TestBase:99 - Expected List = [Kimaya, Kiran, Monica, Sagar]
+2021-06-01 09:39:04,512  INFO [main] TestBase:102 - Actual List = [Kimaya, Kiran, Monica, Sagar]
+2021-06-01 09:39:04,512  INFO [main] TestBase:106 - Actual and Expected list matched
+2021-06-01 09:39:04,611  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:39:04,611  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:39:05,927  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:39:08,293  INFO [main] TestBase:55 - verify Complete Downloads Table
+2021-06-01 09:39:09,041  INFO [main] TestBase:102 - Actual List = [Sr, Name, vendor, Version, 32bit, 64bit, Common, Official Source
+*For prevoius and latest releases, 01, , Java Development Kit (JDK), 1.8, 32bit, 64bit, , Official Website, 02, , Selenium Server Standalon Jar, 2.52.0 3.9.0, , , 2.52.0 3.9.0, Official Website, 03, , Selenium Server Source Jar, 2.46.0, , , Common, Official Website, 04, , Google Chrome, 76.0, 32bit, 64bit, , Official Website, 05, , Google Chrome Driver, 76.0, , , Common, Official Website, 06, , Mozilla Firefox, 69.0, 32bit, 64bit, , Official Website, 07, , Gecko Driver for Latest firefox, 0.24.0, 32bit, 64bit, , Official Website]
+2021-06-01 09:39:09,122  INFO [main] TestBase:105 - Expected List = [Sr, Name, vendor, Version, 32bit, 64bit, Common, Official Source
+*For prevoius and latest releases, 01, , Java Development Kit (JDK), 1.8, 32bit, 64bit, , Official Website, 02, , Selenium Server Standalon Jar, 2.52.0 3.9.0, , , 2.52.0 3.9.0, Official Website, 03, , Selenium Server Source Jar, 2.46.0, , , Common, Official Website, 04, , Google Chrome, 76.0, 32bit, 64bit, , Official Website, 05, , Google Chrome Driver, 76.0, , , Common, Official Website, 06, , Mozilla Firefox, 69.0, 32bit, 64bit, , Official Website, 07, , Gecko Driver for Latest firefox, 0.24.0, 32bit, 64bit, , Official Website]
+2021-06-01 09:39:09,122  INFO [main] TestBase:109 - Actual and Expected list matched
+2021-06-01 09:39:09,222  INFO [main] TestBase:33 - *************************************************************
+2021-06-01 09:39:09,222  INFO [main] TestBase:34 - Opening the browser
+2021-06-01 09:39:10,465  INFO [main] TestBase:39 - Inserting the Url
+2021-06-01 09:39:11,523  INFO [main] TestBase:55 - verify Already Member Text
+2021-06-01 09:39:11,560  INFO [main] TestBase:86 - Actual Already Member Link Text = I already have a membership
+2021-06-01 09:39:11,560  INFO [main] TestBase:89 - Expected Already Member Link Text = I already have a membership
+2021-06-01 09:39:11,560  INFO [main] TestBase:93 - Actual and Expected Already Member Link Text matched

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.jbk.tests.LoginTest"/>
+      <class name="com.jbk.tests.AddUserTest"/>
+      <class name="com.jbk.tests.DashboardTest"/>
+      <class name="com.jbk.tests.OperatorsTest"/>
+      <class name="com.jbk.tests.UsersTest"/>
+      <class name="com.jbk.tests.DownloadsTest"/>
+      <class name="com.jbk.tests.RegisterTest"/>
+      <class name="com.jbk.tests.UsefulLinksTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

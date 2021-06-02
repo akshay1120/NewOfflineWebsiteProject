@@ -56,4 +56,45 @@ public class UsersTest extends TestBase
 		Assert.assertTrue(up.unameInOrder());
 	}
 	
+	@Test (priority=5) 
+	public void verifyStateMaharashtra() 
+	{
+		log.info("verify for State of Maharashtra");
+		Assert.assertTrue(up.stateMaharashtra());
+	}
+	
+	@Test (priority=6) 
+	public void verifyGmail_com() 
+	{
+		log.info("verify Gmail.com");
+		Assert.assertTrue(up.gmail_com());
+	}
+	
+	@Test (priority=7) 
+	public void verifyClickDeleteAlertMsg() 
+	{
+		log.info("verify Click Delete Alert Msg");
+		Assert.assertTrue(up.clickDeleteAlertMsg());
+	}
+	
+	@Test (priority=8) 
+	public void verifySeleniumFaculty() 
+	{
+		log.info("verify Selenium Faculty");
+		Assert.assertTrue(up.seleniumFaculty());
+	}
+	
+	@Test (priority=9) 
+	public void verifyToolTip() 
+	{
+		log.info("verify Tool Tip");
+		Assert.assertTrue(up.toolTip());
+	}
+	
+	@Test (priority=10) 
+	public void verifyComplete_UsersTable() throws Exception 
+	{
+		log.info("verify Complete Users Table");
+		Assert.assertTrue(up.CompleteUsersTable());
+	}
 }

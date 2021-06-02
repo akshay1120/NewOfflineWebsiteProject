@@ -41,4 +41,7 @@ public class LoginPgObjRepo extends TestBase
 	
 	@FindBy(partialLinkText = "Register")
 	public WebElement registerLink;
+	
+	@FindBy(xpath = "//span[text()='Logout']")
+	public WebElement LgOut;
 }

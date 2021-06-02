@@ -55,4 +55,32 @@ public class RegisterTest extends TestBase
 		log.info("verify Already Member Text");
 		Assert.assertTrue(rp.alreadyMemberText());
 	}
+	
+	@Test(priority=5)
+	public void verifyAlreadyMemberLink() 
+	{
+		log.info("verify Already Member Link");
+		Assert.assertTrue(rp.alreadyMemberLink());
+	}
+	
+	@Test(priority=6)
+	public void verifyPlaceholders() 
+	{ 
+		log.info("verify Placeholders");
+		Assert.assertTrue(rp.placeholders());
+	}
+	
+	@Test(priority=7)
+	public void verifyBlankSignIn() 
+	{
+		log.info("verify Blank Sign In");
+		Assert.assertTrue(rp.blankSignIn());
+	}
+	
+	@Test(priority=8)
+	public void verifyValidSignIn() 
+	{
+		log.info("verify Valid Sign In");
+		Assert.assertTrue(rp.validSignIn());
+	}
 }

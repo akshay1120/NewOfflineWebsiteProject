@@ -56,4 +56,38 @@ public class OperatorsTest extends TestBase
 		Assert.assertTrue(op.prefferedWayToConnect_PhoneCall());
 	}
 	
+	@Test (priority=5)
+	public void verifyPrefferedWayToConnect_WhatsApp_And_PhoneCall()
+	{	
+		log.info("verify Preffered Way To Connect WhatsApp And PhoneCall");
+		Assert.assertTrue(op.prefferedWayToConnect_WhatsApp_And_PhoneCall());
+	}
+	
+	@Test (priority=6)
+	public void verifyPrefferedWayToConnect_WhatsApp_ButNot_PhoneCall()
+	{
+		log.info("verify Preffered Way To Connect WhatsApp But Not Phone Call");
+		Assert.assertTrue(op.prefferedWayToConnect_WhatsApp_ButNot_PhoneCall());
+	}
+	
+	@Test (priority=7)
+	public void verifyFacultiesAvailableOnMonday()
+	{
+		log.info("verify Faculties Available On Monday");
+		Assert.assertTrue(op.facultiesAvailableOnMonday());
+	}
+	
+	@Test (priority=8)
+	public void verifyFacultiesNotAvailableOnSunday()
+	{
+		log.info("verify Faculties Not Available On Sunday");
+		Assert.assertTrue(op.facultiesNotAvailableOnSunday());
+	}
+	
+	@Test (priority=9)
+	public void verifyComplete_OperatorsTable() throws Exception
+	{
+		log.info("verify Complete Operators Table");
+		Assert.assertTrue(op.CompleteOperatorsTable());
+	}
 }

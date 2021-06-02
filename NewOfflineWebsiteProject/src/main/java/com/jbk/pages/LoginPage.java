@@ -7,7 +7,6 @@ import java.util.Set;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.jbk.objectRepository.DashboardPgObjRepo;
 import com.jbk.objectRepository.LoginPgObjRepo;
 import com.utility.Utility;
 
@@ -20,8 +19,6 @@ public class LoginPage extends LoginPgObjRepo
 		this.driver = driver ;
 		PageFactory.initElements(driver, this);
 	}
-	
-	DashboardPgObjRepo dpor = new DashboardPgObjRepo();
 	
 	//1
 	public boolean url()
@@ -102,7 +99,7 @@ public class LoginPage extends LoginPgObjRepo
 		}
 	}
 	
-//5
+	//5
 	public boolean subHeading()
 	{
 		String actualSubHeading = Utility.getText(subHeading);
@@ -146,7 +143,7 @@ public class LoginPage extends LoginPgObjRepo
 	
 	//7
 	public boolean placeholders()
-	{
+	{	
 		ArrayList <String>expPlaceholderText = new ArrayList <String>();
 		expPlaceholderText.add("Email");
 		expPlaceholderText.add("Password");
@@ -199,11 +196,8 @@ public class LoginPage extends LoginPgObjRepo
 		Utility.sendkeys(pass, prop.getProperty("password"));
 		Utility.click(lgnBtn);
 		
-		String expectedTitle = "JavaByKiran | Dashboard" ; 
-		log.info("Expected Title = " + expectedTitle);
-		
-		String actualTitle = Utility.getTitle(driver);
-		log.info("Actual Title = " + actualTitle);
+		Utility.click(LgOut);
+		log.info("Clicked Logout Button");
 		
 		String actMessage = Utility.getText(successfullyLgOutMsg);
 		log.info("Actual Message = " + actMessage);
@@ -325,7 +319,7 @@ public class LoginPage extends LoginPgObjRepo
 	
 	//14
 	public boolean registerLink() 
-	{ 
+	{ 	
 		Utility.click(registerLink);
 		log.info("Clicked the Register Link");
 	
@@ -349,7 +343,7 @@ public class LoginPage extends LoginPgObjRepo
 	
 	//15
 	public void loginWithAllData(HashMap<String,String> hm)
-	{
+	{	
 		Set<String> keys = hm.keySet();
 		for(String key :keys)
 		{
@@ -360,7 +354,7 @@ public class LoginPage extends LoginPgObjRepo
 			if(Utility.getTitle(driver).contains("Dashboard"))
 			{
 				log.info("Valid Data = Username : "+ key + "    Password :" + hm.get(key));
-				Utility.click(dpor.leftLgOut);
+				Utility.click(LgOut);
 			}
 			else
 			{

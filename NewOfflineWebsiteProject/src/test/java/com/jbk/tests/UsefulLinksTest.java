@@ -32,20 +32,23 @@ public class UsefulLinksTest extends TestBase
 	public void verifyClickGO() throws Exception
 	{
 		log.info("verify GO Links using Al");
-		Assert.assertTrue(ulp.clickGO());
+		testLog = extent.createTest("verify GO Links using Al");
+		Assert.assertTrue(ulp.clickGO(testLog));
 	}
 	
 	@Test (priority=2)
 	public void verifyClickGoExcel() throws Exception
 	{
 		log.info("verify GO Links using Excel");
-		Assert.assertTrue(ulp.clickGoExcel());
+		testLog = extent.createTest("verify GO Links using Excel");
+		Assert.assertTrue(ulp.clickGoExcel(testLog));
 	}
 	
 	@Test (priority=3)
 	public void verifyComplete_UsefulLinksTable() throws Exception
 	{
 		log.info("verify Complete Useful Links Table");
-		Assert.assertTrue(ulp.complete_UsefulLinksTable());
+		testLog = extent.createTest("verify Complete Useful Links Table");
+		Assert.assertTrue(ulp.complete_UsefulLinksTable(testLog));
 	}
 }

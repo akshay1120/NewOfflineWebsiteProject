@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.jbk.objectRepository.UsefulLinksPgObjRepo;
 import com.utility.ExcelUtility;
 import com.utility.Utility;
@@ -21,7 +22,7 @@ public class UsefulLinksPage extends UsefulLinksPgObjRepo
 	}
 	
 	//1
-	public boolean clickGO() throws Exception
+	public boolean clickGO(ExtentTest test) throws Exception
 	{
 		ArrayList<String>actData = WindowHandlingUtility.getWindowsTitles(driver , clickCol);
 		log.info("Actual List = " + actData);
@@ -48,7 +49,7 @@ public class UsefulLinksPage extends UsefulLinksPgObjRepo
 	}
 	
 	//2
-	public boolean clickGoExcel() throws Exception 
+	public boolean clickGoExcel(ExtentTest test) throws Exception 
 	{
 		ArrayList <String>actData = WindowHandlingUtility.getWindowsTitles(driver , clickCol);
 		log.info("Actual List = " + actData);
@@ -69,7 +70,7 @@ public class UsefulLinksPage extends UsefulLinksPgObjRepo
 	}
 	
 	//3
-	public boolean complete_UsefulLinksTable() throws Exception 
+	public boolean complete_UsefulLinksTable(ExtentTest test) throws Exception 
 	{
 		ArrayList <String>actData = Utility.getCompleteSheetData(tableHead, tableData);
 		log.info("Actual List = " + actData);

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.jbk.objectRepository.AddUserPgObjRepo;
 import com.utility.ExcelUtility;
 import com.utility.Utility;
@@ -23,7 +24,7 @@ public class AddUserPage extends AddUserPgObjRepo
 	}
 	
 	//1
-	public boolean printingDragDownOptions()
+	public boolean printingDragDownOptions(ExtentTest test)
 	{
 		ArrayList <String> expDragDownOptions  = new ArrayList <String>();
 		expDragDownOptions.add("--Select State--");
@@ -53,7 +54,7 @@ public class AddUserPage extends AddUserPgObjRepo
 	}
 	
 	//2
-	public boolean printingDragDownOptExcel() throws Exception
+	public boolean printingDragDownOptExcel(ExtentTest test) throws Exception
 	{
 		ArrayList <String> expDragDownOptions  = ExcelUtility.getTableColData("Data.xlsx", "DragDown", 0, 0);
 		log.info("Expected List = " + expDragDownOptions);
@@ -78,7 +79,7 @@ public class AddUserPage extends AddUserPgObjRepo
 	}
 	
 	//3
-	public boolean validAddUser() throws Exception
+	public boolean validAddUser(ExtentTest test) throws Exception
 	{
 		Utility.sendkeys(userName, "Asj");
 		Utility.sendkeys(mobile, "940000000000");

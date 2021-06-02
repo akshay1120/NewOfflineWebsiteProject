@@ -1,14 +1,32 @@
 package com.jbk.testBase;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class TestBase 
 {
@@ -59,4 +77,75 @@ public class TestBase
 		
 		return driver;
 	}
+	
+	
+	// Extent Report..
+	
+	 public ExtentHtmlReporter htmlReporter;
+	 public ExtentReports extent;
+	 public ExtentTest testLog;
+	 
+	 @BeforeSuite
+	 public void setExtent() 
+	 {
+		  htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/MyReport.html");
+		  
+		  htmlReporter.config().setDocumentTitle("JBK");
+		  htmlReporter.config().setReportName("JBK Offline Website");
+		  htmlReporter.config().setTheme(Theme.STANDARD);
+		  
+		  extent = new ExtentReports();
+		  extent.attachReporter(htmlReporter);
+		  
+		  extent.setSystemInfo("ProjectName", "Offline Website");
+		  extent.setSystemInfo("Tester", "Akshay Jain");
+		  extent.setSystemInfo("OS", "Win10");
+		  extent.setSystemInfo("Browser", "Chrome");
+	 }
+	 
+	 @AfterSuite
+	 public void endReport() {
+	  extent.flush();
+	 }
+	 
+	 @AfterMethod
+	 public void tearDown(ITestResult result) throws IOException 
+	 {
+		  if(result.getStatus()==ITestResult.FAILURE) 
+		  {
+			  testLog.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
+			  testLog.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
+			   
+			   String pathString=TestBase.screenShot(driver, result.getName());
+			   testLog.addScreenCaptureFromPath(pathString);
+		  } 
+		  else if(result.getStatus()==ITestResult.SKIP) 
+		  {
+			  testLog.log(Status.SKIP, "Skipped Test case is: "+result.getName());
+		  } 
+		  else if(result.getStatus()==ITestResult.SUCCESS) 
+		  {
+			  testLog.log(Status.PASS, "Pass Test case is: "+result.getName());
+		  }
+	 } 
+	 
+	 // Method to capture ScreenShot..
+	 
+	 public static String screenShot(WebDriver driver,String filename) 
+	 {
+		  String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		  TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		  File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		  String destination = System.getProperty("user.dir")+"\\ScreenShot\\"+filename+"_"+dateName+".png";
+		  File finalDestination= new File(destination);
+		  try 
+		  {
+		   FileUtils.copyFile(source, finalDestination);
+		  } 
+		  catch (Exception e) 
+		  {
+		   e.getMessage();
+		  }
+	  return destination;
+	 }
 }

@@ -1,57 +1,11 @@
-2021-06-02 09:26:48,230  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:26:48,233  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:26:50,198  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:26:51,438  INFO [main] TestBase:32 - verifying the url
-2021-06-02 09:26:51,439  INFO [main] TestBase:27 - Expected Url = file:///C:/Offline%20Website/index.html
-2021-06-02 09:26:51,464  INFO [main] TestBase:30 - Actual Url = file:///C:/Offline%20Website/index.html
-2021-06-02 09:26:51,465  INFO [main] TestBase:34 - Actual and expected Url matched
-2021-06-02 09:26:51,624  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:26:51,625  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:26:53,098  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:26:56,478  INFO [main] TestBase:34 - verify Printing Drag Down Options using Al
-2021-06-02 09:26:56,479  INFO [main] TestBase:34 - Expected List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
-2021-06-02 09:26:56,745  INFO [main] TestBase:41 - Actual List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
-2021-06-02 09:26:56,746  INFO [main] TestBase:45 - Actual and Expected list matched
-2021-06-02 09:26:56,884  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:26:56,885  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:26:58,360  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:27:00,857  INFO [main] TestBase:34 - verifying the url
-2021-06-02 09:27:00,858  INFO [main] TestBase:27 - Expected Url = file:///C:/Offline%20Website/pages/examples/dashboard.html
-2021-06-02 09:27:00,871  INFO [main] TestBase:30 - Actual Url = file:///C:/Offline%20Website/pages/examples/dashboard.html
-2021-06-02 09:27:00,871  INFO [main] TestBase:34 - Actual and Expected Url matched
-2021-06-02 09:27:01,006  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:27:01,006  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:27:02,446  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:27:05,255  INFO [main] TestBase:34 - verify contact No Length
-2021-06-02 09:27:05,594  INFO [main] TestBase:29 - Actual List = [Kiran, Neelam, Seema, Varsha, Darshit]
-2021-06-02 09:27:05,594  INFO [main] TestBase:37 - Expected List = [Kiran, Neelam, Seema, Varsha, Darshit]
-2021-06-02 09:27:05,595  INFO [main] TestBase:41 - Actual and Expected list matched
-2021-06-02 09:27:05,758  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:27:05,758  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:27:07,216  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:27:10,073  INFO [main] TestBase:34 - verify Headings using Al
-2021-06-02 09:27:10,277  INFO [main] TestBase:28 - Actual List of Headings = [#, Username, Email, Mobile, Course, Gender, State, Action]
-2021-06-02 09:27:10,277  INFO [main] TestBase:31 - Expected List of Headings = [#, Username, Email, Mobile, Course, Gender, State, Action]
-2021-06-02 09:27:10,278  INFO [main] TestBase:35 - Actual and Expected list of Headings matched
-2021-06-02 09:27:10,450  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:27:10,450  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:27:11,890  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:27:15,027  INFO [main] TestBase:34 - verify Operating System 32bit
-2021-06-02 09:27:15,027  INFO [main] TestBase:25 - Actual Vendors having Operating System of 32 bit : 
-2021-06-02 09:27:15,480  INFO [main] TestBase:28 - Actual List = [Java Development Kit (JDK), Google Chrome, Mozilla Firefox, Gecko Driver for Latest firefox]
-2021-06-02 09:27:15,480  INFO [main] TestBase:35 - Expected List = [Java Development Kit (JDK), Google Chrome, Mozilla Firefox, Gecko Driver for Latest firefox]
-2021-06-02 09:27:15,481  INFO [main] TestBase:39 - Actual and Expected list matched
-2021-06-02 09:27:15,633  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:27:15,633  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:27:17,053  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:27:18,435  INFO [main] TestBase:34 - verify Url
-2021-06-02 09:27:18,436  INFO [main] TestBase:25 - Expected Url = file:///C:/Offline%20Website/pages/examples/register.html
-2021-06-02 09:27:18,448  INFO [main] TestBase:28 - Actual Url = file:///C:/Offline%20Website/pages/examples/register.html
-2021-06-02 09:27:18,448  INFO [main] TestBase:32 - Actual and expected Url matched
-2021-06-02 09:27:18,600  INFO [main] TestBase:33 - *************************************************************
-2021-06-02 09:27:18,600  INFO [main] TestBase:34 - Opening the browser
-2021-06-02 09:27:20,029  INFO [main] TestBase:39 - Inserting the Url
-2021-06-02 09:27:22,988  INFO [main] TestBase:34 - verify GO Links using Al
-2021-06-02 09:27:37,095  INFO [main] TestBase:27 - Actual List = [Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Live Videos | javabyKiran, Page not found | javabyKiran]
-2021-06-02 09:27:37,097  INFO [main] TestBase:36 - Expected List = [Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Page not found | javabyKiran, Live Videos | javabyKiran, Page not found | javabyKiran]
-2021-06-02 09:27:37,097  INFO [main] TestBase:40 - Actual and Expected list matched
+2021-06-02 20:41:49,906  INFO [main] TestBase:51 - *************************************************************
+2021-06-02 20:41:49,906  INFO [main] TestBase:52 - Opening the browser
+2021-06-02 20:41:51,945  INFO [main] TestBase:57 - Inserting the Url
+2021-06-02 20:41:56,085  INFO [main] TestBase:34 - verify Printing Drag Down Options using Al
+2021-06-02 20:41:56,089  INFO [main] TestBase:35 - Expected List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
+2021-06-02 20:41:56,334  INFO [main] TestBase:42 - Actual List = [--Select State--, Maharashtra, Delhi, HP, Punjab]
+2021-06-02 20:41:56,334  INFO [main] TestBase:46 - Actual and Expected list matched
+2021-06-02 20:41:56,486  INFO [main] TestBase:51 - *************************************************************
+2021-06-02 20:41:56,487  INFO [main] TestBase:52 - Opening the browser
+2021-06-02 20:41:57,895  INFO [main] TestBase:57 - Inserting the Url
+2021-06-02 20:42:01,360  INFO [main] TestBase:34 - verify GO Links using Al

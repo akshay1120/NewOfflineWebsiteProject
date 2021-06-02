@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.jbk.tests.UsersTest">
+        <methods>
+          <include name="verifyToolTip"/>
+          <include name="verifySeleniumFaculty"/>
+          <include name="verifyStateMaharashtra"/>
+          <include name="openBrowser"/>
+          <include name="verifyComplete_UsersTable"/>
+          <include name="verifyGmail_com"/>
+          <include name="verifyHeadingsAl"/>
+          <include name="verifyUnameInOrder"/>
+          <include name="verifyMaleGender"/>
+          <include name="verifyClickDeleteAlertMsg"/>
+          <include name="verifyMobNoLength"/>
+        </methods>
+      </class> <!-- com.jbk.tests.UsersTest -->
+      <class name="com.jbk.tests.UsefulLinksTest">
+        <methods>
+          <include name="verifyClickGoExcel"/>
+          <include name="verifyComplete_UsefulLinksTable"/>
+          <include name="openBrowser"/>
+          <include name="verifyClickGO"/>
+        </methods>
+      </class> <!-- com.jbk.tests.UsefulLinksTest -->
+      <class name="com.jbk.tests.DashboardTest">
+        <methods>
+          <include name="verifyJBK_Link"/>
+          <include name="openBrowser"/>
+          <include name="verifyCourseHeading"/>
+          <include name="verifyRightCornerLogOutLink"/>
+          <include name="verifyMoreInfoNewWindow"/>
+          <include name="verifyOperatorsMenu"/>
+          <include name="verifyUserStatus"/>
+          <include name="verifySequence"/>
+          <include name="verifyCoursesMoreInfo"/>
+          <include name="verifyCourseSubHeading"/>
+          <include name="verifyUserName"/>
+          <include name="verifyDownloadsMenu"/>
+          <include name="verifyCoursesSubHeading"/>
+          <include name="verifyUrl"/>
+          <include name="verifyCoursesHeading"/>
+          <include name="verifyUserImage"/>
+          <include name="verifyMainHeading"/>
+          <include name="verifyLeftCornerLogOutMenu"/>
+          <include name="verifynavigationMenuText"/>
+          <include name="verifyUsersMenu"/>
+          <include name="verifyFooterStatement"/>
+          <include name="verifyCornerHeading"/>
+          <include name="verifyUsefulLinksMenu"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.jbk.tests.DashboardTest -->
+      <class name="com.jbk.tests.OperatorsTest">
+        <methods>
+          <include name="verifyNamesInAlphabeticalOrder"/>
+          <include name="verifyComplete_OperatorsTable"/>
+          <include name="verifyPrefferedWayToConnect_WhatsApp_ButNot_PhoneCall"/>
+          <include name="verifycontactNoLength"/>
+          <include name="openBrowser"/>
+          <include name="verifyFacultiesAvailableOnMonday"/>
+          <include name="verifyPrefferedWayToConnect_WhatsApp_And_PhoneCall"/>
+          <include name="verifyFacultiesNotAvailableOnSunday"/>
+          <include name="verifyPrefferedWayToConnect_WhatsApp"/>
+          <include name="verifyPrefferedWayToConnect_PhoneCall"/>
+        </methods>
+      </class> <!-- com.jbk.tests.OperatorsTest -->
+      <class name="com.jbk.tests.DownloadsTest">
+        <methods>
+          <include name="verifyNone"/>
+          <include name="openBrowser"/>
+          <include name="verifyComplete_DownloadsTable"/>
+          <include name="verifyOperatingSystem_32bit"/>
+          <include name="verifyCommon"/>
+        </methods>
+      </class> <!-- com.jbk.tests.DownloadsTest -->
+      <class name="com.jbk.tests.AddUserTest">
+        <methods>
+          <include name="verifyprintingDragDownOptExcel"/>
+          <include name="openBrowser"/>
+          <include name="verifyValidAddUser"/>
+          <include name="verifyPrintingDragDownOptions"/>
+        </methods>
+      </class> <!-- com.jbk.tests.AddUserTest -->
+      <class name="com.jbk.tests.RegisterTest">
+        <methods>
+          <include name="verifyAlreadyMemberLink"/>
+          <include name="verifyBlankSignIn"/>
+          <include name="verifyValidSignIn"/>
+          <include name="verifyUrl"/>
+          <include name="verifyTitle"/>
+          <include name="openBrowser"/>
+          <include name="verifyAlreadyMemberText"/>
+          <include name="verifyPlaceholders"/>
+          <include name="verifyHeading"/>
+        </methods>
+      </class> <!-- com.jbk.tests.RegisterTest -->
+      <class name="com.jbk.tests.LoginTest">
+        <methods>
+          <include name="loginWithAlldata"/>
+          <include name="verifyBlankLogInErrorMessage"/>
+          <include name="verifyRegisterLinkText"/>
+          <include name="verifyInvalidLogIn"/>
+          <include name="verifyLogoutSuccessfullyMessage"/>
+          <include name="closeBrowser"/>
+          <include name="verifySubHeading"/>
+          <include name="openBrowser"/>
+          <include name="verifyValidLogIn"/>
+          <include name="verifyRegisterLink"/>
+          <include name="verifyInvalidLogInErrorMessage"/>
+          <include name="verifyPlaceholders"/>
+          <include name="verifySignInBoxHeading"/>
+        </methods>
+      </class> <!-- com.jbk.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
